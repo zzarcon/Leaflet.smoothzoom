@@ -12,24 +12,20 @@ L.Map.SmothZoom = L.Handler.extend({
   },
 
   onMouseWheel: function(e) {
-    console.log('onMouseWheel')
     e.preventDefault();
     e.stopPropagation();
+    
     if (this.isThrottling) return;
-
-    console.log('setTimeout')
 
     this.isThrottling = true;
     this.setSmothZoom(e);
 
     setTimeout(() => {
       this.isThrottling = false;
-      this.setSmothZoom(e);
     }, this.smothZoomDelay);
   },
 
   setSmothZoom(e) {
-    console.log('setSmothZoom');
     const delta = L.DomEvent.getWheelDelta(e);
     const map = this._map;
 
