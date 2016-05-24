@@ -1,4 +1,4 @@
-# Leaflet Smoth Zoom
+# Leaflet Smooth Zoom
 > Fixes the default leaflet zoom on OSX
 
 
@@ -6,15 +6,15 @@
 
 ```javascript
 var map = L.map('map', {
-  smothZoom: true,
-  smothZoomDelay: 1000 //Default to 1000
+  smoothZoom: true,
+  smoothZoomDelay: 1000 //Default to 1000
 });
 ```
 
-### Without Smoth Zoom plugin
+### Without Smooth Zoom plugin
 
-# ![no-smoth](showcase/no-smoth.gif)
+# ![no-smooth](showcase/no-smooth.gif)
 
-### With Smoth Zoom plugin
+### With Smooth Zoom plugin
     
-# ![smoth](showcase/smoth.gif)
+# ![smooth](showcase/smooth.gif)

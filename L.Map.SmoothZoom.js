@@ -1,5 +1,5 @@
-L.Map.SmothZoom = L.Handler.extend({
-  smothZoomDelay: 1000,
+L.Map.SmoothZoom = L.Handler.extend({
+  smoothZoomDelay: 1000,
   isThrottling: false,
 
   addHooks: function () {
@@ -14,18 +14,18 @@ L.Map.SmothZoom = L.Handler.extend({
   onMouseWheel: function(e) {
     e.preventDefault();
     e.stopPropagation();
-    
+
     if (this.isThrottling) return;
 
     this.isThrottling = true;
-    this.setSmothZoom(e);
+    this.setSmoothZoom(e);
 
     setTimeout(() => {
       this.isThrottling = false;
-    }, this.smothZoomDelay);
+    }, this.smoothZoomDelay);
   },
 
-  setSmothZoom(e) {
+  setSmoothZoom(e) {
     const delta = L.DomEvent.getWheelDelta(e);
     const map = this._map;
 
@@ -37,4 +37,4 @@ L.Map.SmothZoom = L.Handler.extend({
   }
 });
 
-L.Map.addInitHook('addHandler', 'smothZoom', L.Map.SmothZoom);
+L.Map.addInitHook('addHandler', 'smoothZoom', L.Map.SmoothZoom);
