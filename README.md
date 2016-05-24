@@ -17,4 +17,4 @@ var map = L.map('map', {
 
 ### With Smoth Zoom plugin
 
-![](https://raw.github.com/zzarcon/Leaflet.smothzoom/master/showcase/no-smoth.gif)
+![](https://raw.github.com/zzarcon/Leaflet.smothzoom/master/showcase/smoth.gif)
