@@ -19,6 +19,12 @@ var map = L.map('map', {
     
 # ![smooth](showcase/smooth.gif)
 
+### Installation
+
+`$ npm i leaflet.smoothzoom -S`
+
+`$ bower i Leaflet.smoothzoom -S`
+
 ### Dependencies
 
 None 😼
