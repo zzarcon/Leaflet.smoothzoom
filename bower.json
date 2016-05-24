@@ -1,5 +1,5 @@
 {
-  "name": "Leaflet.smoothzoom",
+  "name": "Leaflet.smoothzoom-demo",
   "version": "0.1.1",
   "homepage": "https://github.com/zzarcon/Leaflet.smoothzoom",
   "authors": [
@@ -14,5 +14,8 @@
     "bower_components",
     "example",
     "showcase"
-  ]
+  ],
+  "dependencies": {
+    "Leaflet.smoothzoom": "^0.1.1"
+  }
 }
