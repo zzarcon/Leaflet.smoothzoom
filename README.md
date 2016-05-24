@@ -1,6 +1,6 @@
 #Leaflet Smooth Zoom [![npm version](https://badge.fury.io/js/kakapo.svg)](https://badge.fury.io/js/kakapo) [![Bower version](https://badge.fury.io/bo/Leaflet.smoothzoom.svg)](https://badge.fury.io/bo/Leaflet.smoothzoom) [![npm license](https://img.shields.io/npm/l/awesome-badges.svg)](https://tldrlegal.com/license/mit-license)
 
-> Fixes the default leaflet zoom on OSX
+> Fixes the default leaflet zoom on OSX - [DEMO](http://zzarcon.github.io/Leaflet.smoothzoom/)
 
 ### Usage
 
