@@ -14,5 +14,8 @@
     "bower_components",
     "example",
     "showcase"
-  ]
+  ],
+  "dependencies": {
+    "leaflet": "^0.7.7"
+  }
 }
