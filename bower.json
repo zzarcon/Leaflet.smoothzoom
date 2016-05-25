@@ -13,7 +13,8 @@
     "node_modules",
     "bower_components",
     "example",
-    "showcase"
+    "showcase",
+    "relaser.json"
   ],
   "dependencies": {
     "leaflet": "^0.7.7"
