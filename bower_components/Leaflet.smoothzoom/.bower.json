@@ -1,0 +1,28 @@
+{
+  "name": "Leaflet.smoothzoom",
+  "version": "0.1.1",
+  "homepage": "https://github.com/zzarcon/Leaflet.smoothzoom",
+  "authors": [
+    "zzarcon"
+  ],
+  "description": "Fixes the default leaflet zoom on OSX",
+  "main": "L.Map.SmoothZoom.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example",
+    "showcase"
+  ],
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.1",
+    "commit": "e49133de0402855397fb95b5a1894fb5fddc642c"
+  },
+  "_source": "https://github.com/zzarcon/Leaflet.smoothzoom.git",
+  "_target": "^0.1.1",
+  "_originalSource": "Leaflet.smoothzoom",
+  "_direct": true
+}
